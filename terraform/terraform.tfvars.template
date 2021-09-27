@@ -1,0 +1,18 @@
+################################################
+
+# Your IP address, so that you will be whitelisted against security groups
+#variable "trusted_network" {
+#  description = "CIDR formatted IP (<IP Address>/32) or network that will be allowed access (you can use 0.0.0.0/0 for unrestricted access)"
+#}
+
+
+project_name = "Felxify Demo"
+
+trusted_network = "0.0.0.0/0"
+
+public_key = "AUTHORIZED_KEY=ssh-ed25519_AAAAC3NzaC1lZDy1NTE5AAAAIKx4Ag1zzxv9FFfj3tFTYva888y/bDdVL1Mm+6"
+
+## SCW provider settings
+region = "fr-par"
+zone = "fr-par-1"
+project_id = "c1963900-1230-45f1-bc28-8cbaa1cd77e7"
