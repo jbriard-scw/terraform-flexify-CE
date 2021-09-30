@@ -42,7 +42,10 @@ Export the Scaleway env:
 - *export SCW_ACCESS_KEY="SCW6SQSD5547J8YP88PO"*
 - *export SCW_SECRET_KEY="348c0736-c673-4cd8-b517-f62c57f9a707"*
 
-  
+terraform plan
+terraform apply
+
+enjoye
 
 ## TODO
 
